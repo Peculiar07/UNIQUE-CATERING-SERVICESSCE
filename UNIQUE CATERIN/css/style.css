@@ -1,0 +1,56 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f8ff; /* baby blue */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background: #fff5ee; /* cream */
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+}
+main {
+    padding: 20px;
+}
+.grid-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+.grid-gallery img {
+    width: 100%;
+    display: block;
+}
+footer {
+    background: #fff5ee;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+}
+label, input, textarea, button {
+    margin-bottom: 10px;
+}
+button {
+    padding: 10px;
+    cursor: pointer;
+}
